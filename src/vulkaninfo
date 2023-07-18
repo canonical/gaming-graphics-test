@@ -1,3 +1,4 @@
 #!/bin/bash
 
-exec $SNAP/graphics/usr/bin/vulkaninfo
+$SNAP/graphics/usr/bin/vulkaninfo
+read -p "Press any key to continue."
