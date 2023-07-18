@@ -1,3 +1,4 @@
 #!/bin/bash
 
-exec $SNAP/graphics/usr/bin/glxinfo
+$SNAP/graphics/usr/bin/glxinfo
+read -p "Press any key to continue."
